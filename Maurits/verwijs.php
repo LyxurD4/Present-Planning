@@ -17,12 +17,13 @@ $present = $_COOKIE["present"];
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Absent of present?</title>
 </head>
 <body>
     <?
-        var_dump();
-        var_dump($_COOKIE["present"]);
+        var_dump($absent);
+        var_dump($present);
     ?>
 </body>
 </html>
