@@ -14,11 +14,9 @@
             <h1>Ben je present of absent?</h1>
         </div>
         <div class="buttons">
-            <form action="absent.php" method="post">
-                <input type="submit" value="Absent" class="absent">
-            </form>
-            <form action="present.php" method="post">
-                <input type="submit" value="Present" class="present">
+            <form action="verwijs.php" method="post">
+                <input type="submit" value="Absent" class="absent" name="absent">
+                <input type="submit" value="Present" class="present" name="present">
             </form>
         </div>
     </div>
