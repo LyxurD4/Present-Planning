@@ -22,8 +22,12 @@ $present = $_COOKIE["present"];
 </head>
 <body>
     <?
-        var_dump($absent);
-        var_dump($present);
+        if (!is_null($absent)) {
+            var_dump($absent);
+        }
+        if (!is_null($present)) {
+            var_dump($present);
+        }
     ?>
 </body>
 </html>
