@@ -16,8 +16,8 @@
         </div>
         <div class="buttons">
             <form action="verwijs.php" method="post">
-                <input type="submit" value="Absent" class="absent" name="absent">
                 <input type="submit" value="Present" class="present" name="present">
+                <input type="submit" value="Absent" class="absent" name="absent">
             </form>
         </div>
     </div>
