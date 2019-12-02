@@ -12,7 +12,7 @@
     <div class="all-content">
         <div class="login-container">
             <div class="login-box">
-                <form action="loginHandler.php" method="post" class="login-form">
+                <form action="handler.php" method="post" class="login-form">
 
                     <div class="logo">
                         <img alt="BIT Runners" src="images/BITRunnersLogo.png" />
