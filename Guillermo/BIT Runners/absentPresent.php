@@ -13,7 +13,7 @@
             <h1>Ben je present of absent?</h1>
         </div>
         <div class="buttons">
-            <form action="LoginHandler.php" method="post">
+            <form action="LoginHandler.php" method="post" target="loginHandler.php">
                 <input type="submit" value="Absent" class="absent" name="absent">
                 <input type="submit" value="Present" class="present" name="present">
             </form>

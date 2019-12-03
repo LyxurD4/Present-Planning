@@ -7,5 +7,8 @@ if (isset($_POST["submit"])) {
     fwrite($file, $user);
     fclose($file);
 }
+if (isset($_POST["submit"])) {
+    setcookie("naam", $_POST["naam"]);
+}
 
 header("location:login.php");
