@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*background-color: #3d3d3d;*/
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-image: linear-gradient(to bottom right, #4b4b4b, #3d3d3d);
+    overflow: hidden;
+    /*border-bottom: 5px solid red;*/
+}
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    -webkit-transition-duration: 0.4s; /* voor bob's mac */
+    transition-duration: 0.4s;
+}
+.navbar a:hover {
+    background-image: linear-gradient(to bottom right, #D980FA, #9980FA);
+    color: white;    
+}
+.navbar a.active {
+    background-image: linear-gradient(to bottom right, #9980FA, #D980FA);
+    color: white;
+}
+img {
+    padding-right: 10px;
+    float: right;
+    width: 45px;
+    height: 45px;
+}
+.topinfo {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+div {
+    /*border: 1px solid red;*/
+}
+.content {
+    margin-right: 10px;
+    margin-left: 10px;
+    /*border: 1px solid black;*/
+    /*border-radius: 5px;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.planningGisteren {
+    margin-left: 20px;
+    padding: 20px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.planningVandaag {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.presentie {
+    margin-right: 20px;
+    padding: 20px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

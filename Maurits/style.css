@@ -22,15 +22,18 @@ body {
     border: 2px solid #353b48;
     box-shadow: 5px 5px 5px black;
 }
+
 div h1{
     text-align: center;
     color: white;
     padding-bottom: 20px;
 }
+
 .buttons {
     display: flex;
     justify-content: center;
 }
+
 input {
     background-color: #27ae60;
     border: none;
